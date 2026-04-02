@@ -2,8 +2,6 @@
 
 A machine learning project that classifies images of individuals with and without Down Syndrome using transfer learning with MobileNetV2.
 
-Link to the deployed app: https://downsyndrome-prediction.netlify.app/
-
 ## Project Structure
 
 Here is the basic layout of the repository:
@@ -111,3 +109,28 @@ The notebook includes a `RetrainingTrigger` class. It flags when the model shoul
 1. Training accuracy drops below a specific threshold (e.g., 80%).
 2. Enough new training samples (e.g., 50 new photos) have been uploaded to the system.
 3. A set amount of time (e.g., 7 days) has passed since the last training run.
+
+## Load Testing with Locust
+
+We used Locust for performance testing to simulate user traffic and validate the robustness of the API under load.
+
+### Setup
+
+Install Locust and run the load test:
+
+```bash
+pip install locust
+locust -f locustfile.py --host=http://downsyndrome.icyeza.systems
+```
+
+Then open `http://localhost:8089` in your browser to access the Locust dashboard.
+
+### Locust Dashboard
+
+**Request Rate, Response Times, and User Load Over Time**
+
+![Locust Charts](assets/locust-charts.png)
+
+**Endpoint-wise Performance Statistics**
+
+![Locust Table](assets/locust-table.png)

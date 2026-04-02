@@ -2,6 +2,9 @@
 
 A machine learning project that classifies images of individuals with and without Down Syndrome using transfer learning with MobileNetV2.
 
+Demo Video Link: https://youtu.be/D47M8J3a6AA
+Deployed Link: http://downsyndrome-prediction.netlify.app/
+
 ## Project Structure
 
 Here is the basic layout of the repository:

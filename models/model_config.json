@@ -1,0 +1,24 @@
+{
+  "model_type": "MobileNetV2 Transfer Learning",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "classes": [
+    "downSyndrome",
+    "noDownSyndrome",
+    "unknown"
+  ],
+  "label_map": {
+    "downSyndrome": 0,
+    "noDownSyndrome": 1,
+    "unknown": 2
+  },
+  "training_accuracy": 0.9511412382125854,
+  "validation_accuracy": 0.8888888955116272,
+  "test_accuracy": 0.8831908831908832,
+  "training_date": "2026-03-26T15:03:18.658806",
+  "total_parameters": 2619203,
+  "trainable_parameters": 361219
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "original",
+    "name": "Original",
+    "filename": "downsyndrome_classifier.h5",
+    "label_map_filename": "label_map.pkl",
+    "accuracy": null,
+    "date": "2026-04-02T00:00:00",
+    "is_original": true,
+    "version_num": 0
+  },
+  {
+    "id": "v1_20260402_144058",
+    "name": "v1 (2026-04-02)",
+    "filename": "model_v1_20260402_144058.h5",
+    "label_map_filename": "label_map_v1_20260402_144058.pkl",
+    "accuracy": 0.9061166429587483,
+    "date": "2026-04-02T14:40:58.534965",
+    "is_original": false,
+    "version_num": 1
+  }
+]

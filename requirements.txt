@@ -1,0 +1,15 @@
+tensorflow
+flask==3.0.3
+flask-cors==4.0.1
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+matplotlib
+seaborn==0.13.2
+pillow==10.4.0
+opencv-python==4.10.0.84
+scipy==1.14.0
+kagglehub==0.3.4
+locust==2.31.6
+requests==2.32.3
+python-dotenv==1.0.1

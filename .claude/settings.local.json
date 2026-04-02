@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; f = open\\('down_syndrome.ipynb'\\); nb = json.load\\(f\\); [print\\(cell.get\\('source', []\\)[:2]\\) for cell in nb['cells'][:10]]\")",
+      "Bash(python -c ':*)"
+    ]
+  }
+}
